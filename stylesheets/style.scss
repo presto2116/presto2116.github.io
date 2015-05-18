@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding:0;
+	border: 0;
+	box-sizing: border-box;
+	background-color: transparent;
+	font-weight: normal;
+	font-style: inherit;
+}
+
+/*Themes*/
+html{
+	height: 100%;
+
+}
+body{
+	background: aqua;
+	font-size: 16px;
+	min-height: 100%;
+}
+main{
+	max-width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #eee;
+	box-shadow: 0px 0px 20px 0px #999 inset;
+}
+h1, h2, h3 {
+	text-align: center
+}
+
+img{
+	width: 350px;
+	border-radius: 10px;
+	display: block;
+	margin: 20px auto 20px auto;
+
+}
+
+
+
+
+
+footer {
+	background-color: #333;
+	width: 100%;
+	bottom: 0;
+	position: relative;
+	color: white;
+}
