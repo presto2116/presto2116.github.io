@@ -26,6 +26,9 @@ main {
 h1, h2, h3, h4 {
   text-align: center; }
 
+h1 {
+  font-size: 60px; }
+
 img {
   width: 350px;
   border-radius: 10px;
@@ -44,9 +47,16 @@ footer {
   color: #eee;
   text-align: center;
   line-height: 0; }
+  footer a {
+    color: lightgrey;
+    margin: 10px; }
 
-footer a {
-  color: lightgrey;
-  margin: 10px; }
+@media (max-width: 500px) {
+  main {
+    background: #3F6F93;
+    color: white; }
+
+  footer {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

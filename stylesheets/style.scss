@@ -1,3 +1,4 @@
+$blue: #3F6F93;
 *{
 	margin: 0;
 	padding:0;
@@ -14,7 +15,7 @@ html{
 
 }
 body{
-	background: #3F6F93;
+	background: $blue;
 	font-size: 16px;
 	min-height: 100%;
 }
@@ -28,6 +29,9 @@ main{
 h1, h2, h3, h4 {
 	text-align: center
 }
+h1{
+	font-size: 60px;
+}
 
 img{
 	width: 350px;
@@ -40,10 +44,6 @@ p{
 	padding: 20px;
 }
 
-
-
-
-
 footer {
 	background-color: #3F6F93;
 	width: 100%;
@@ -53,9 +53,20 @@ footer {
 	color: #eee;
 	text-align: center;
 	line-height: 0;
-}
-	footer a{
+	a{
 		color: lightgrey;
 		margin: 10px;
 	}
+}
+
+@media(max-width: 500px){
+	main{
+		background: $blue;
+		color: white;
+	}
+	footer{
+		font-size: 15px;
+	}
+
+}
 
