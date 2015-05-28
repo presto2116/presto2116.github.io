@@ -14,7 +14,8 @@ html {
 body {
   background: #3F6F93;
   font-size: 16px;
-  min-height: 100%; }
+  min-height: 100%;
+  font-family: "futura"; }
 
 main {
   max-width: 700px;
@@ -29,14 +30,17 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 60px; }
 
-img {
+a img, img {
   width: 350px;
   border-radius: 10px;
   display: block;
   margin: 20px auto 20px auto; }
 
+a img:hover {
+  opacity: .7; }
+
 p {
-  padding: 20px; }
+  padding: 40px; }
 
 footer {
   background-color: #3F6F93;
