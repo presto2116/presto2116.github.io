@@ -9,6 +9,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/javascript.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
 	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top">
@@ -26,23 +27,13 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#about-me">About Me</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 
 				</ul>
 
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-						</ul>
-					</li>
-				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
@@ -84,21 +75,21 @@
 
 				<h1>Projects</h1>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-sm-4">
 
 						<a href="http://get-out-and-play.herokuapp.com"><img src="images/get-out-and-play.png" alt="Get Out and Play"></a>
 						<h3>Get Out and Play</h3>
 						<p>I have always loved the outdoors, but sometimes it is hard to get a group of friends together to participate in an activity. Using Get out and Play, users are now able to arrange activities like beach trips, soccer games, picnics, dog park outings and see if other users are interested in joining. It’s a great way to get outside, make new friends, and explore.</p>
 						<p>Languages: Ruby on Rails, Bootstrap framework, Devise Gem, Backbone.js</p>	
 					</div>
-					<div class="col-md-4">
+					<div class="col-sm-4">
 
 						<a href="http://giphy-stumble.herokuapp.com"><img src="images/giphy_stumble.png" alt="Giphy Stumble"></a>
 						<h3>Giphy Stumble</h3>
 						<p>When I was younger, I always enjoyed looking through stumbleupon.com and at General Assembly I enjoyed looking at GIFs. For this app, I decided to bring both sites together creating a new way to view and save GIFs. Giphy Stumble is fun and can be very addicting.</p>
 						<p>Languages: Ruby on Rails, Giphy API, Foundation framework, Devise Gem</p>
 					</div>
-					<div class="col-md-4">
+					<div class="col-sm-4">
 
 						<a href="http://signs-of-change.herokuapp.com"><img src="images/signs_of_change.png" alt="Signs of Change"></a>
 						<h3>Cyber Bullying: USA Today Interactive</h3>
@@ -108,9 +99,23 @@
 				</div>
 			</section>
 			<section id="contact">
-				<h2>CONTACT PRESTON</h2>
-				<p>To get in touch with me, please send me an email or connect with me via one of the social media options listed below</p>
-				<a href="mailto:preston.straight@gmail.com?subject=Hello" id="email-me" class="btn-default btn btn-lg">Send Email</a>
+				<h1>CONTACT PRESTON</h1>
+				<div class="row">
+				<div class="col-sm-4 text-center">
+				<h3>EMAIL</h3>
+				<a href="mailto:preston.straight@gmail.com?subject=Hello" class="btn-default btn"><i class="fa fa-2x fa-envelope"></i> | Send Preston an Email</a>
+			</div>
+			<div class="col-sm-4 text-center">
+				<h3>SOCIAL MEDIA</h3>
+				<a class="btn btn-default" target="_blank" href="https://www.facebook.com/preston.straight"><i class="fa fa-2x fa-facebook-square"></i> | Visit My Facebook</a>
+				<a class="btn btn-default" target="_blank" href="https://www.linkedin.com/in/prestonstraight"><i class="fa fa-2x fa-linkedin-square"></i> | Look at My LinkedIn</a>
+				<a class="btn btn-default" target="_blank" href="https://github.com/presto2116"><i class="fa fa-2x fa-github"></i> | Check Out My GitHub</a>
+			</div>
+			<div class="col-sm-4 text-center">
+			<h3>RESUME</h3>
+				<a class="btn btn-default" href="images/preston-straight-resume.pdf" download><i class="fa fa-2x fa-file-text"></i> | Download my resumé</a>
+			</div>
+			</div>
 			</section>
 		</div>
 

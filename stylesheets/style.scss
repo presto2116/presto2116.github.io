@@ -20,12 +20,12 @@ html{
 }
 body{
  background: #D8D8D8;
+
 }
-main{
-	max-width: 700px;
-	margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
+
+.container{
+	width: 100%;
+	
 }
 #title {
 	margin-top: 70px;
@@ -37,8 +37,13 @@ main{
   color: white;
   p{
   	font-size: 25px;
-
   }
+  h1{
+		font-size: 60px;
+	}
+	h1, h2{
+		text-align: center;
+	}
 }
 #about-me{
 	background: url(../images/projects-background.jpg) no-repeat center center fixed; 
@@ -55,6 +60,16 @@ main{
   -o-background-size: cover;
   background-size: cover;
   color: white;
+  h3{
+  	text-align: center;
+  }
+  a img{
+		width: 70%;
+		border-radius: 10px;
+	}
+	a img:hover {
+	 opacity: .7;
+	}
 }
 #contact{
 	height: 500px;
@@ -65,17 +80,26 @@ main{
   background-size: cover;
   color: white;
   margin-bottom: 20px;
-	h2{
-		padding-top: 200px;
+	h1{
+		text-align: center;
+		padding-top: 100px;
+	}
+	h3{
+		margin: 15px
+	}
+	.btn {
+	background: $bgDefault;
+	color: $white;
+	width: 200px;
+	margin: 10px;
+	}
+	.btn:hover, .btn:focus{
+	background: darken($bgDefault, 10%);
+	color: $white;
 	}
 }
-h1, h2, h3, h4 {
-	text-align: center;
 
-}
-h1{
-	font-size: 60px;
-}
+
 img{
 	width: 40%;
 	border-radius: 10px;
@@ -83,34 +107,8 @@ img{
 	margin: 20px auto 20px auto;
 }
 
-a img{
-	// height: 200px;
-	// width: 260px;
-	width: 70%;
-	border-radius: 10px;
-	// display: block;
-	// margin: 20px auto 20px auto;
-}
-a img:hover {
- opacity: .7;
-}
-.btn {
-	background: $bgDefault;
-	color: $white;
-}
-.btn:hover{
-	background: darken($bgDefault, 10%);
-	color: $white;
-}
 
-p{
-	padding: 25px;
-}
-#email-me{
-	width: 20%;
-	display: block;
-	margin: 20px auto 20px auto;
-}
+
 
 
 footer {
@@ -141,15 +139,16 @@ footer {
 
 
 $dropDown       : true;
-// $bgDefault      : #febe28;
-// $bgHighlight    : #ffca00;
-// $colDefault     : #404040;
-// $colHighlight   : #616161;
+.navbar-right{
+	margin-right: 100px;
+	font-size: 20px;
+}
 .navbar-default {
   background-color: $bgDefault;
   border-color: $bgDefault;
   .navbar-brand {
     color: $colDefault;
+    font-size: 30px;
     &:hover, &:focus { 
       color: $colHighlight; }}
   .navbar-text {
