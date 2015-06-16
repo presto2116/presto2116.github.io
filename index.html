@@ -4,33 +4,122 @@
 	<meta charset="utf-8" />
 	<title>Preston Straight</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/javascript.js"></script>
 </head>
 <body>
-	<main>
-		<h1>Preston Straight</h1>
-		<h2>Full Stack Web Developer</h2>
-		<p> I am a full stack web developer with a love for adventure. When I am not coding, you will find me outside riding my bike or jumping out of planes. I have a passion for learning and will always give 110%</p>
-		<img src="images/profile.jpg" alt="profile"/>
+	<nav id="myNavbar" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#title">Preston Straight</a>
+			</div>
 
-		<h2>About Me</h2>
-		<p>After graduating from the University of Colorado, I relocated to teach English in Shanghai, China. I have a love for traveling and international culture. Since living in China, I have transitioned from teaching to the world of web development.</p>
-		<h2>Projects</h2>
-		<h3>Cyber Bullying: USA Today Interactive</h3>
-		<a href="http://signs-of-change.herokuapp.com"><img src="images/signs_of_change.png" alt="Signs of Change"></a>
-		<p>An iteractive dialog for kids to learn how to cope with cyberbullying and for parents to discover exactly what cyber bullying is and how they can help their children</p>
-		<h3>Giphy Stumble</h3>
-		<a href="http://giphy-stumble.herokuapp.com"><img src="images/giphy_stumble.png" alt="Giphy Stumble"></a>
-		<p>An app that combines the ideas of two websites, stumbleupon.com and giphy.com I wanted to create a website that is very user friendly and able to quickly explore the world of GIFs.</p>
-		<h3>Final Project</h3>
-		<a href="http://awesome-project.herokuapp.com"><img src="images/awesome_project.png" alt="Awesome Project"></a>
-		<p>soon this space will be filled with my final project. Lets hope it is awesome.</p>		
-		<footer>
-			pStraight Designs
-			<a href="https://github.com/presto2116">GitHub</a>
-			<a href="https://www.linkedin.com/in/prestonstraight">LinkedIn</a>
-			<a href="https://www.facebook.com/preston.straight">Facebook</a>
-		</footer>
-	</main>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#about-me">About Me</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<div data-spy="scroll" data-target="#myNavbar" data-offset="100">
+		<div class="container">
+
+			<section id="title">
+				<h1>Preston Straight</h1>
+				<h2>Full Stack Web Developer</h2>
+
+				<img src="images/GA-profile.jpg" alt="profile"/>
+				<br>
+				<br>
+				<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+				<p> I am a full stack web developer with a love for adventure. When I am not coding, you will find me outside riding my bike or jumping out of planes. I have a passion for learning and will always give 110%</p>
+			</div>
+		</div>
+			</section>
+			<section id="about-me">
+				<h2>About Me</h2>
+				<p>After graduating from the University of Colorado, I relocated to teach English in Shanghai, China. I have a love for traveling and international culture. Since living in China, I have transitioned from teaching to the world of web development.</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+
+			</section>
+			<section id="projects">
+
+				<h1>Projects</h1>
+				<div class="row">
+					<div class="col-md-4">
+
+						<a href="http://get-out-and-play.herokuapp.com"><img src="images/get-out-and-play.png" alt="Get Out and Play"></a>
+						<h3>Get Out and Play</h3>
+						<p>I have always loved the outdoors, but sometimes it is hard to get a group of friends together to participate in an activity. Using Get out and Play, users are now able to arrange activities like beach trips, soccer games, picnics, dog park outings and see if other users are interested in joining. It’s a great way to get outside, make new friends, and explore.</p>
+						<p>Languages: Ruby on Rails, Bootstrap framework, Devise Gem, Backbone.js</p>	
+					</div>
+					<div class="col-md-4">
+
+						<a href="http://giphy-stumble.herokuapp.com"><img src="images/giphy_stumble.png" alt="Giphy Stumble"></a>
+						<h3>Giphy Stumble</h3>
+						<p>When I was younger, I always enjoyed looking through stumbleupon.com and at General Assembly I enjoyed looking at GIFs. For this app, I decided to bring both sites together creating a new way to view and save GIFs. Giphy Stumble is fun and can be very addicting.</p>
+						<p>Languages: Ruby on Rails, Giphy API, Foundation framework, Devise Gem</p>
+					</div>
+					<div class="col-md-4">
+
+						<a href="http://signs-of-change.herokuapp.com"><img src="images/signs_of_change.png" alt="Signs of Change"></a>
+						<h3>Cyber Bullying: USA Today Interactive</h3>
+						<p>My group teamed up with USA Today to create an interactive dialog for kids to learn how to cope with cyber bullying and for parents to discover exactly what cyber bullying is and how they can help their children.</p>
+						<p>Languages: Ruby on Rails, custom CSS/HTML styling, USA Today API, PostgreSQL</p>
+					</div>
+				</div>
+			</section>
+			<section id="contact">
+				<h2>CONTACT PRESTON</h2>
+				<p>To get in touch with me, please send me an email or connect with me via one of the social media options listed below</p>
+				<a href="mailto:preston.straight@gmail.com?subject=Hello" id="email-me" class="btn-default btn btn-lg">Send Email</a>
+			</section>
+		</div>
+	</div>
+	<footer>
+		pStraight Designs
+		<a href="https://github.com/presto2116">GitHub</a>
+		<a href="https://www.linkedin.com/in/prestonstraight">LinkedIn</a>
+		<a href="https://www.facebook.com/preston.straight">Facebook</a>
+	</footer>
+
 </body>
 </html>
