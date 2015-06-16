@@ -6,7 +6,7 @@ $(document).ready(function(){
          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
          if (target.length) {
            $('html,body').animate({
-             scrollTop: (target.offset().top - 50) // adjust this according to your content
+             scrollTop: (target.offset().top - 70) // adjust this according to your content
            }, 1000);
            return false;
          }
