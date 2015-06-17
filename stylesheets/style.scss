@@ -22,11 +22,13 @@ body{
  background: #D8D8D8;
 
 }
-
 .container{
 	width: 100%;
-	
 }
+  h1{
+		text-align: center;
+		padding-top: 20px;
+	}
 #title {
 	margin-top: 70px;
 	background: url(../images/projects-background.jpg) no-repeat center center fixed; 
@@ -41,7 +43,7 @@ body{
   h1{
 		font-size: 60px;
 	}
-	h1, h2{
+	h2{
 		text-align: center;
 	}
 }
@@ -52,6 +54,7 @@ body{
   -o-background-size: cover;
   background-size: cover;
   color: white;
+
 }
 #projects{
 	background: url(../images/projects-background.jpg) no-repeat center center fixed; 
@@ -70,6 +73,10 @@ body{
 	a img:hover {
 	 opacity: .7;
 	}
+
+	p{
+		padding: 2px 20px;
+	}
 }
 #contact{
 	
@@ -80,10 +87,7 @@ body{
   background-size: cover;
   color: white;
   margin-bottom: 20px;
-	h1{
-		text-align: center;
-		padding-top: 100px;
-	}
+	
 	h3{
 		margin: 15px
 	}
@@ -92,6 +96,8 @@ body{
 	color: $white;
 	width: 200px;
 	margin: 10px;
+
+	vertical-align: middle;
 	}
 	.btn:hover, .btn:focus{
 	background: darken($bgDefault, 10%);
@@ -126,18 +132,7 @@ footer {
 	}
 }
 
-@media(max-width: 500px){
-	main{
-		background: yellow;
-		color: white;
-	}
-	footer{
-		font-size: 15px;
-	}
-
-}
-
-
+// navbar css
 $dropDown       : true;
 .navbar-right{
 	margin-right: 100px;
