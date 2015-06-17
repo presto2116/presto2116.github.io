@@ -25,13 +25,19 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white; }
+  color: white;
+  min-height: 88vh; }
   #title p {
-    font-size: 25px; }
+    font-size: 20px; }
   #title h1 {
     font-size: 60px; }
   #title h2 {
     text-align: center; }
+  #title img {
+    width: 30%;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto 20px auto; }
 
 #about-me {
   background: url(../images/projects-background.jpg) no-repeat center center fixed;
@@ -39,7 +45,27 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white; }
+  color: white;
+  height: 88vh;
+  position: relative; }
+  #about-me h1 {
+    padding: 40px; }
+  #about-me p {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 18px; }
+  #about-me h2 {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 20px; }
+  #about-me .fa-stack {
+    margin: auto;
+    display: block; }
+  #about-me .row {
+    position: absolute;
+    top: 25%;
+    bottom: 25%; }
 
 #projects {
   background: url(../images/projects-background.jpg) no-repeat center center fixed;
@@ -47,12 +73,18 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white; }
+  color: white;
+  min-height: 88vh; }
+  #projects h1 {
+    padding: 40px; }
   #projects h3 {
     text-align: center; }
   #projects a img {
     width: 70%;
-    border-radius: 10px; }
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; }
   #projects a img:hover {
     opacity: .7; }
   #projects p {
@@ -65,24 +97,26 @@ h1 {
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  min-height: 88vh;
+  position: relative; }
+  #contact h1 {
+    padding: 40px; }
   #contact h3 {
     margin: 15px; }
   #contact .btn {
-    background: #31bc9f;
+    background: #2A5E6A;
     color: #EEE;
-    width: 200px;
+    min-width: 200px;
     margin: 10px;
     vertical-align: middle; }
   #contact .btn:hover, #contact .btn:focus {
-    background: #26947d;
+    background: #387e8f;
     color: #EEE; }
-
-img {
-  width: 40%;
-  border-radius: 10px;
-  display: block;
-  margin: 20px auto 20px auto; }
+  #contact .row {
+    position: absolute;
+    top: 25%;
+    bottom: 25%; }
 
 footer {
   background: #31bc9f;
@@ -121,19 +155,19 @@ footer {
       color: #eeeeee; }
       .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
         color: #ffffff;
-        background-color: #1fd8b1; }
+        background-color: #2A5E6A; }
     .navbar-default .navbar-nav > li > .dropdown-menu .divider {
-      background-color: #1fd8b1; }
+      background-color: #2A5E6A; }
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
-    background-color: #1fd8b1; }
+    background-color: #2A5E6A; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #ffffff;
-    background-color: #1fd8b1; }
+    background-color: #2A5E6A; }
   .navbar-default .navbar-toggle {
-    border-color: #1fd8b1; }
+    border-color: #2A5E6A; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #1fd8b1; }
+      background-color: #2A5E6A; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #eeeeee; }
   .navbar-default .navbar-collapse,
@@ -151,6 +185,6 @@ footer {
       color: #ffffff; }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #1fd8b1; } }
+    background-color: #2A5E6A; } }
 
 /*# sourceMappingURL=style.css.map */
