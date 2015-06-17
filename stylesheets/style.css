@@ -46,7 +46,7 @@ h1 {
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  height: 88vh;
+  min-height: 88vh;
   position: relative; }
   #about-me h1 {
     padding: 40px; }
@@ -63,7 +63,6 @@ h1 {
     margin: auto;
     display: block; }
   #about-me .row {
-    position: absolute;
     top: 25%;
     bottom: 25%; }
 
@@ -87,8 +86,10 @@ h1 {
     margin: 0 auto; }
   #projects a img:hover {
     opacity: .7; }
+  #projects .row {
+    padding-bottom: 40px; }
   #projects p {
-    padding: 2px 20px; }
+    padding: 2px 60px; }
 
 #contact {
   background: url(../images/projects-background.jpg) no-repeat center center fixed;
@@ -98,8 +99,7 @@ h1 {
   background-size: cover;
   color: white;
   margin-bottom: 20px;
-  min-height: 88vh;
-  position: relative; }
+  min-height: 88vh; }
   #contact h1 {
     padding: 40px; }
   #contact h3 {
@@ -114,8 +114,7 @@ h1 {
     background: #387e8f;
     color: #EEE; }
   #contact .row {
-    position: absolute;
-    top: 25%;
+    margin-top: 60px;
     bottom: 25%; }
 
 footer {
@@ -139,20 +138,20 @@ footer {
   background-color: #31bc9f;
   border-color: #31bc9f; }
   .navbar-default .navbar-brand {
-    color: #eeeeee;
+    color: #eee;
     font-size: 30px; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #ffffff; }
   .navbar-default .navbar-text {
-    color: #eeeeee; }
+    color: #dddddd; }
   .navbar-default .navbar-nav > li > a {
-    color: #eeeeee; }
+    color: #dddddd; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #ffffff; }
   .navbar-default .navbar-nav > li > .dropdown-menu {
     background-color: #31bc9f; }
     .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-      color: #eeeeee; }
+      color: #dddddd; }
       .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
         color: #ffffff;
         background-color: #2A5E6A; }
@@ -169,18 +168,18 @@ footer {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
       background-color: #2A5E6A; }
     .navbar-default .navbar-toggle .icon-bar {
-      background-color: #eeeeee; }
+      background-color: #dddddd; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #eeeeee; }
+    border-color: #dddddd; }
   .navbar-default .navbar-link {
-    color: #eeeeee; }
+    color: #dddddd; }
     .navbar-default .navbar-link:hover {
       color: #ffffff; }
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #eeeeee; }
+    color: #dddddd; }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
       color: #ffffff; }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
