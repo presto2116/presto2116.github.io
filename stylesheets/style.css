@@ -5,7 +5,8 @@
   box-sizing: border-box;
   background-color: transparent;
   font-weight: normal;
-  font-style: inherit; }
+  font-style: inherit;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif; }
 
 /*Themes*/
 body {
@@ -87,7 +88,8 @@ h1 {
   #projects a img {
     width: 70%;
     max-width: 280px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    border: 1px solid white; }
   #projects a img:hover {
     opacity: .7; }
   #projects .row {
@@ -115,16 +117,24 @@ h1 {
     color: #EEE;
     min-width: 200px;
     margin: 10px;
-    vertical-align: middle; }
-  #contact .btn:hover, #contact .btn:focus {
+    vertical-align: middle;
+    border: 1px solid white; }
+  #contact .btn:hover {
     background: #00b9e2;
     color: #EEE; }
+  #contact .btn:focus {
+    outline: none; }
   #contact .row {
     margin-top: 60px;
     bottom: 25%; }
-  #contact #resumeModal img {
+  #contact .modal-dialog {
     width: 80%;
+    height: 90%;
     padding: 0; }
+  #contact .modal-content img {
+    width: 100%;
+    height: 90%;
+    border-radius: 0; }
 
 footer {
   background: #31bc9f;

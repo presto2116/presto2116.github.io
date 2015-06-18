@@ -12,6 +12,7 @@ $colHighlight: #ffffff;
 	background-color: transparent;
 	font-weight: normal;
 	font-style: inherit;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 /*Themes*/
@@ -114,6 +115,8 @@ body{
 		width: 70%;
 		max-width: 280px;
 		border-radius: 10px;
+		border: 1px solid white;
+
 	}
 	a img:hover {
 	 opacity: .7;
@@ -152,23 +155,43 @@ body{
 	min-width: 200px;
 	margin: 10px;
 	vertical-align: middle;
+	border: 1px solid white;
 	}
-	.btn:hover, .btn:focus{
+	.btn:hover{
 	background: lighten($bgHighlight, 10%);
 	color: $white;
+	}
+	.btn:focus {
+  outline: none;
 	}
 	.row{
 		margin-top: 60px;
 		bottom: 25%;
 
 	}
-#resumeModal img{
-
+	.modal-dialog {
   width: 80%;
+  height: 90%;
   padding: 0;
 }
 
-
+.modal-content img{
+	width: 100%;
+  height: 90%;
+  border-radius: 0;
+}
+// #resumeModal, .modal-content{
+	
+//   width: 100%;
+//   padding: 0;
+//   margin: 0 auto;
+  
+// }
+// .modal-body{
+	
+//     overflow-y: auto;
+   
+// }
 }
 
 footer {
