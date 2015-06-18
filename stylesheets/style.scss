@@ -218,19 +218,19 @@ $dropDown       : true;
 .navbar-default {
   background-color: $bgDefault;
   border-color: $bgDefault;
-  .navbar-brand {
-    color: #eee;
+  .navbar-brand, .navbar-brand:focus {
+    color: $colHighlight;
     font-size: 30px;
-    &:hover, &:focus { 
-      color: $colHighlight; }}
+    &:hover { 
+      color: $colDefault; }}
   .navbar-text {
     color: $colDefault; }
   .navbar-nav {
     > li {
       > a {
-        color: $colDefault;
+        color: $colHighlight;
         &:hover,  &:focus {
-          color: $colHighlight; }}
+          color: $colDefault; }}
       @if $dropDown {
         > .dropdown-menu {
           background-color: $bgDefault;
