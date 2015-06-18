@@ -121,6 +121,9 @@ h1 {
   #contact .row {
     margin-top: 60px;
     bottom: 25%; }
+  #contact #resumeModal img {
+    width: 80%;
+    padding: 0; }
 
 footer {
   background: #31bc9f;
