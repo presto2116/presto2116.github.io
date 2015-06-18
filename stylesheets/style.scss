@@ -1,6 +1,6 @@
 $white: #EEE;
 $bgDefault: #31bc9f;
-$bgHighlight: #2A5E6A;
+$bgHighlight: #008faf;
 $colDefault: #dddddd;
 $colHighlight: #ffffff;
 
@@ -68,8 +68,8 @@ body{
   h1{
   	padding: 40px;
   }
-  p{
-		padding: 0 10px;
+  p {
+		padding: 0 30px;
 		text-align: center;
 		font-size: 18px;
 	}
@@ -102,14 +102,17 @@ body{
   }
   h3{
   	text-align: center;
+  	padding: 0 20px;
+  }
+  .center-image{
+  	text-align: center;
+		margin: 0 auto;
+		display: block;
   }
   a img{
 		width: 70%;
-		max-width: 300px;
+		max-width: 280px;
 		border-radius: 10px;
-		display: block;
-		margin: 0 auto;
-
 	}
 	a img:hover {
 	 opacity: .7;
@@ -120,6 +123,8 @@ body{
 
 	p{
 		padding: 2px 60px;
+		font-size: 16px;
+		text-align: justify;
 	}
 }
 #contact{
