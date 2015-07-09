@@ -40,20 +40,8 @@ h1 {
     border-radius: 10px;
     display: block;
     margin: 20px auto 20px auto;
-    border: 1px solid white;
-    animation-name: move;
-    animation-duration: 1s;
-    position: relative;
-    animation-timing-function: linear; }
-@keyframes move {
-  0% {
-    left: 100%;
-    transform: rotateZ(0deg); }
-  50% {
-    transform: rotateZ(180deg); }
-  100% {
-    left: 0%;
-    transform: rotateZ(360deg); } }
+    border: 1px solid white; }
+
 #about-me {
   background: url(../images/projects-background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
